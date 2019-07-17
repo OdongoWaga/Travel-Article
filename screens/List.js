@@ -26,10 +26,10 @@ const mocks = [
       avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
     },
     saved: true,
-    location: 'Santorini, Greece',
+    location: 'Utopia, Greece',
     temperature: 34,
-    title: 'Santorini',
-    description: 'Santorini is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. The whitewashed, cubiform houses of its 2 principal towns, Fira and Oia, cling to cliffs above an underwater caldera (crater). They overlook the sea, small islands to the west and beaches made up of black, red and white lava pebbles.',
+    title: 'Utopia',
+    description: 'Utopia is one of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. The whitewashed, cubiform houses of its 2 principal towns, Fira and Oia, cling to cliffs above an underwater caldera (crater). They overlook the sea, small islands to the west and beaches made up of black, red and white lava pebbles.',
     rating: 4.3,
     reviews: 3212,
     preview: 'https://images.unsplash.com/photo-1507501336603-6e31db2be093?auto=format&fit=crop&w=800&q=80',
@@ -66,10 +66,10 @@ const mocks = [
       avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
     },
     saved: true,
-    location: 'Santorini, Greece',
+    location: 'Utopia, Greece',
     temperature: 34,
-    title: 'Santorini',
-    description: 'Santorini - Description',
+    title: 'Utopia',
+    description: 'Utopia - Description',
     rating: 3.2,
     reviews: 3212,
     preview: 'https://images.unsplash.com/photo-1507501336603-6e31db2be093?auto=format&fit=crop&w=800&q=80',
@@ -229,7 +229,7 @@ class Articles extends Component {
           <Text style={{ fontSize: theme.sizes.font * 2 }}>Destination</Text>
         </View>
         <View>
-          <Image style={styles.avatar} source={{ uri: 'https://randomuser.me/api/portraits/women/32.jpg'}} />
+          <Image style={styles.avatar} source={{ uri: 'https://randomuser.me/api/portraits/men/26.jpg'}} />
         </View>
       </View>
     )
